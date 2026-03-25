@@ -1,15 +1,9 @@
-python -m venv venv
-source venv/Scripts/activate
-python -m pip install pandas openpyxl pymupdf pdfplumber camelot-py[cv]
-python -m pip install pandas openpyxl pymupdf pdfplumber camelot-py[cv]
-```
-
----
-
-### `requirements.txt`
-```
-camelot-py[cv]
-pdfplumber
-pandas
-openpyxl
-ghostscript
+camelot-py==1.0.9
+pdfplumber==0.11.9
+pandas==3.0.1
+openpyxl==3.1.5
+PyMuPDF==1.27.2
+ghostscript==0.8.1
+numpy==2.4.3
+pypdf==3.17.4
+python-dateutil==2.9.0.post0
