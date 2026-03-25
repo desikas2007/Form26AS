@@ -1,0 +1,11 @@
+```
+
+---
+
+### `requirements.txt`
+```
+camelot-py[cv]
+pdfplumber
+pandas
+openpyxl
+ghostscript
